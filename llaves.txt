@@ -1,0 +1,4 @@
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore /Users/sebastian/Desktop/skilla/posterlab.keystore /Users/sebastian/Desktop/skilla/platforms/android/build/outputs/apk/android-release-unsigned.apk posterlab
+
+
+ionic push --google-api-key AIzaSyBds8Jqeafwk9idb9T6L0pex8U_RkjsIo4

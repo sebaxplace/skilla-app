@@ -8,6 +8,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 .run(function($ionicPlatform, $ionicPopup) {
   $ionicPlatform.ready(function() {
+    initPushwoosh();
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if (window.cordova && window.cordova.plugins.Keyboard) {
@@ -33,7 +34,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         }
                     });
                 }
-            }   
+            }
     
   });
 
