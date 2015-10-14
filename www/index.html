@@ -29,23 +29,9 @@
     <script src="js/controllers.js"></script>
     <script src="js/services.js"></script>
 
-     <script>
-        function initPushwoosh() {
-            var pushNotification = window.plugins.pushNotification;
-            if(device.platform == "Android")
-            {
-                registerPushwooshAndroid();
-            }else if(device.platform == "iPhone" || device.platform == "iOS")
-            {
-                registerPushwooshIOS();
-            }
-        }
-
-
-   </script>
+    
    
-    <script type="text/javascript" src="js/PushwooshAndroid.js"></script>
-    <script type="text/javascript" src="js/PushwooshiOS.js"></script>
+    <script type="text/javascript" src="js/pushwoosh.js"></script>
   </head>
 
   <body ng-app="starter">
