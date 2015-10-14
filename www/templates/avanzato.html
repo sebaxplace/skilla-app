@@ -1,0 +1,17 @@
+<ion-view hide-back-button="true" view-title="{{posterlabIcon}} PosterLab">
+<ion-content class="list-posterlab">
+<ion-list>
+<ion-item ng-repeat="avanzato in avanzatos" class="list-pos">
+
+<a class="item sessioni" href="#/app/posterlab/avanzato/{{avanzato.id}}"> 
+  <img src="img/loghi/percorso_avanzato_p.svg">
+  <div class="item-body cont-titolo">
+    <h2>{{avanzato.titolo}}</h2>
+  </div>
+  <i class="ion-ios-arrow-right arr-ses"></i>
+</a>
+
+</ion-item>
+</ion-list>
+</ion-content>
+</ion-view>

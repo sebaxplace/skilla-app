@@ -1,0 +1,24 @@
+<ion-view view-title="{{relatoriIcon}} Relatori">
+<ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+      
+  <ion-content ng-repeat="relatore in relatori" ng-show="relatore.id=={{relatoreid}}">
+    <ion-item class="item-profile">
+  <div class="dett-rel">
+    <img class="padding" src="http://posterlab.skilla.com/{{relatore.immagine}}">
+    <h2>{{relatore.nome}} <strong>{{relatore.cognome}}</strong></h2>
+    <span>{{relatore.titolo}}</span>
+    
+    <div class="item-body" id="testo-relatori">
+    <div class="footer-social">
+      <a href="#" ng-href="{{relatore.link}}" onclick='window.open(this.href, "_system", "location=yes"); return false;'><i class="ion-social-linkedin center"></i></a>
+    </div>
+    	<p ng-bind-html="to_trusted(relatore.testo)"></p>
+    </div>
+    
+  </div>
+</ion-item>
+  </ion-content>
+</ion-view>

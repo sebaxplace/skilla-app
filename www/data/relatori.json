@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nome": "Mario",
+        "cognome": "Rossi"
+    },
+    {
+        "id": 2,
+        "nome": "Pippo",
+        "cognome": "Pluto"
+    },
+    {
+        "id": 3,
+        "nome": "Marco",
+        "cognome": "Rubaz"
+    },
+    {
+        "id": 4,
+        "nome": "Stiven",
+        "cognome": "Galassi"
+    },
+    {
+        "id": 5,
+        "nome": "Seba",
+        "cognome": "Stian"
+    }
+]

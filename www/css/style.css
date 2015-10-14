@@ -1,0 +1,232 @@
+/* Empty. Add your own CSS if you like */
+
+body {font-family: 'museo_sans300';color: #303030;}
+strong {font-family: 'museo_sans500';font-weight: 500;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {color: #303030;}
+p {color: #303030;}
+
+.arancio {color: #f59332}
+.ciano {color: #08c2dc}
+.rosso {color: #ae2637}
+
+.bar{padding-top: 10px;height: 55px;border-bottom: 1px solid #f1f1f1;background-color: #fff;}
+[nav-bar-transition="ios"] [nav-bar="active"] .bar, [nav-bar-transition="ios"] [nav-bar="entering"] .bar {background-color: #fff;}
+.bar-footer{display: block;padding: 0;min-height: 80px;background-image: none;}
+.bar-stable .button.button-clear {color: #bbbbbb;}
+.bar-header.has-tabs-top {border-bottom-width: 1px;}
+.bar.bar-stable {border-color: #f1f1f1;}
+.bar .button.back-button.active, .bar .button.back-button.activated {box-shadow: none;}
+.bar .button.back-button{position: absolute;right: 0;color: #bbbbbb;margin-left: 10px;margin-top: 8px;background-color: transparent;}
+.has-header{top:55px;}
+.padding {padding: 20px;}
+.back-text{display: none!important;}
+.item p {color: #303030;}
+.lista {border-bottom: 1px solid #f1f1f1!important;}
+.lista span {color: #08c2dc;font-family: 'museo_sans300';display: block;margin-left:0px;font-size: 14px;}
+.list {margin-top: 10px;}
+
+/* button custom magenta */
+.button {border-radius: 0px;border:0px;font-family: 'museo_sans300'}
+.button.button-magenta {background-color: #d01e7f;color: #fff;}
+.button.button-magenta.active, .button.button-magenta.activated {background-color: #A61866;box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1);}
+
+/* title bar */
+.bar.bar-stable .title {padding-top:10px;color: #303030;font-family: 'museo_sans300';text-align: center!important;}
+
+/* menu */
+.menu {background-color: #d01e7f;color: #fff;}
+.item-complex .item-content, .item-radio .item-content {padding: 12px 49px 12px 16px;background-color: #d01e7f;color: #fff;}
+
+.item .item-content.active,
+.item .item-content.activated {color: #fff; background: #A61866;}
+ion-item span{margin-left: 27px}
+
+/* icone */
+.normal {font-size: 25px; margin-right: 8px; vertical-align: baseline;}
+.center {font-size: 25px; margin-right: 8px; vertical-align: -webkit-baseline-middle;}
+
+/* home 
+@media screen and (orientation:portrait) { 
+	.home{background-image:url('../img/home_bg.jpg');background-repeat:no-repeat;width: 100%; height: auto; background-size: 100% 45%;} 
+	.img-home img{width: 45%}
+}
+@media screen and (orientation:landscape) { 
+	.home{background-image:url('../img/home_bg.jpg');background-repeat:no-repeat;width: 100%; height: auto; background-size: 100% 60%;} 
+	.img-home img{width: 25%}
+}
+*/
+
+.img-home {text-align: center;margin-top:-1px;background-image:url('../img/home_bg.jpg');background-repeat:no-repeat;width: 100%; height: 210px; background-size: 100% 100%;}
+.img-home img {height:100%;width: auto;padding-top: 10px;padding-bottom: 30px;}
+.img-skilla {position: absolute;left: 5px;top: 5px;width: 70px;}
+.img-samsung {position: absolute;right: 5px;top: 5px;width: 70px;}
+.cont-home {text-align: center;padding-left: 25px;padding-right: 25px}
+.cont-home span {color: #08c2dc;font-family: 'museo_sans700';display: block;margin-left:0px;margin-top: 10px;padding-bottom: 15px;font-size: 18px;border-bottom: 1px solid #f1f1f1;}
+.cont-home strong {font-family: 'museo_sans700';font-size: 16px;}
+.cont-home p {font-size: 16px;margin-top: 15px;}
+
+.giornate{text-align: center;font-size: 32px;font-family: 'museo_sans300';margin-top: 20px;margin-bottom: 20px;}
+.giornate h2{font-size: 28px;font-family: 'museo_sans300';color: #b6b6b6;}
+.bg-date {background-color: #f8f8f8;}
+.date {margin-left: 25px;margin-right: 25px; border-bottom: 1px solid #f1f1f1;margin-bottom: 50px;}
+
+.footer-social {text-align: center;width: 100%;display: block;margin-bottom: 20px;}
+.footer-social a{color: #c6c6c6}
+.footer-social, .activated a{color: #fff}
+.footer-power {text-align:center; background-color: #303030;height: 45px;width: 100%;padding: 10px}
+.footer-power img {height: 15px;}
+
+/* posterlab */
+.tabs {height: 60px;background-color: #fff;}
+.tabs-top > .tabs, .tabs.tabs-top {top: 55px;}
+.base {border-bottom: 3px solid #f59332!important;}
+.intermedio {border-bottom: 3px solid #08c2dc!important;}
+.avanzato {border-bottom: 3px solid #ae2637!important;}
+.tabs-color-light .tab-item{color: #b6b6b6;}
+.tabs-color-light .tab-item.tab-item-active, .tabs-color-light .tab-item.active, .tabs-color-light .tab-item.activated {opacity: 1;font-size: 16px;color: #fff;}
+.tabs-color-light .tab-item.tab-item-hidden, .tabs-color-light .tab-item.hidden{background: transparent;}
+.tab-nav {line-height: normal;}
+.tab-item {max-width: none;padding-top: 10px}
+.tab-title {font-family: 'museo_sans500';}
+.tabs-striped.tabs-color-light .tab-item {color: #b6b6b6;}
+.list-posterlab {margin-top: 58px;}
+.list-pos {padding-top: 0px;}
+.tabs-color-light .tab-item.tab-item-active:first-child {background:red;}
+.tabs-color-light .tab-item.tab-item-active:nth-child(2) {background:green;}
+.tab-nav .base.tab-item-active {background:#f59332;font-size: 16px;}
+.tab-nav .intermedio.tab-item-active {background:#08c2dc;font-size: 16px;}
+.tab-nav .avanzato.tab-item-active {background:#ae2637;font-size: 16px;}
+
+/* dettaglio posterlab */
+/*#hidebar div .tab-nav{display: none}*/
+.dett-posterlab {text-align: center;}
+.dett-posterlab img{max-width: 260px;max-height: 260px;}
+.item-body, .text-posterlab-base {padding-top: 0px;}
+.text-posterlab-base h2 {font-family: 'museo_sans500'!important;font-size: 16px;margin-bottom: 20px;}
+.text-posterlab-base h3 {font-family: 'museo_sans500';font-size: 16px;color: #303030;}
+.text-posterlab-base p{font-family: 'museo_sans300';text-align: left;}
+.text-posterlab-base strong{font-size: 14px!important;color: #f59332;}
+
+.item-body, .text-posterlab-intermedio {padding-top: 0px;}
+.text-posterlab-intermedio h2{font-family: 'museo_sans500'!important;font-size: 16px!important;margin-bottom: 20px;}
+.text-posterlab-intermedio h3 {font-family: 'museo_sans500';font-size: 16px;color: #303030;}
+.text-posterlab-intermedio p{font-family: 'museo_sans300';text-align: left;}
+.text-posterlab-intermedio strong{font-size: 14px!important;color: #08c2dc;}
+
+.item-body, .text-posterlab-avanzato {padding-top: 0px;}
+.text-posterlab-avanzato h2{font-family: 'museo_sans500'!important;font-size: 16px!important;margin-bottom: 20px;}
+.text-posterlab-avanzato h3 {font-family: 'museo_sans500';font-size: 16px;color: #303030;}
+.text-posterlab-avanzato p{font-family: 'museo_sans300';text-align: left;}
+.text-posterlab-avanzato strong{font-size: 14px!important;color: #ae2637;}
+.sottotitolo {font-size: 16px!important;color: #303030!important;}
+
+/* footer dettaglio posterlab */
+.poster-footer {background-color: #303030;border-radius: 8px;color: #fff;}
+.poster-footer img{height: 35px;float: left;border:0;margin: 20px;margin-right: 10px;}
+.poster-footer span{margin-left: 0px;margin-top:15px;text-transform: uppercase;font-size: 12px;float: left;}
+.poster-footer p{color: #fff;margin-left: 0px;margin-top:15px;text-transform: uppercase;font-size: 14px;text-align: left;}
+.ico-focus {font-size: 42px;float: left;padding-top: 15px;padding-right: 10px;}
+
+/* Lista Relatori */
+.item {border: none;}
+.item .item-avatar.active,
+.item .item-avatar.activated {background: #f1f1f1;}
+.item h2 {font-family: 'museo_sans300';font-size: 16px;}
+.item strong {font-size: 16px;}
+
+.item-avatar > img:last-child, .item-avatar .item-image, .item-avatar .item-content > img:last-child, .item-avatar .item-content .item-image, .item-avatar-left > img:last-child, .item-avatar-left .item-image, .item-avatar-left .item-content > img:last-child, .item-avatar-left .item-content .item-image {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	max-width: 40px;
+	max-height: 40px;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.item-avatar, .item-avatar .item-content, .item-avatar-left, .item-avatar-left .item-content {
+	padding-left: 16px; 
+	min-height: 72px;
+}
+
+/* dett relatori */
+.dett-rel {text-align: center;}
+.dett-rel h2 {font-family: 'museo_sans300'}
+.dett-rel strong {font-size: 16px;}
+.dett-rel img{max-width: 150px;max-height: 150px;border-radius: 50%;}
+.dett-rel span {color: #08c2dc;font-family: 'museo_sans300';display: block;margin-left:0px;margin-top: 30px;margin-bottom: 10px;background-color: #f8f8f8;padding: 20px;margin-left: -15px;margin-right: -15px;}
+.dett-rel p {font-family: 'museo_sans300';text-align: left;}
+#testo-relatori p{font-size: 14px!important;font-family: 'museo_sans300'!important;color: #303030!important;}
+#testo-relatori span {margin: 0;background-color: transparent!important;font-size: 14px!important;font-family: 'museo_sans300'!important;color: #303030!important;}
+#testo-relatori strong, b {font-family: 'museo_sans500';}
+
+/* sessioni */
+.item .sessioni.active,
+.item .sessioni.activated {background: #f1f1f1;}
+.cont-titolo {padding: 0px;max-width: 80%;}
+.sessioni {border-bottom: 1px solid #f1f1f1!important;min-height: 95px;}
+.sessioni h2 {margin-top: 10px;font-family: 'museo_sans500';}
+.sessioni span {color: #08c2dc;font-family: 'museo_sans300';margin-left:0px;font-size: 14px;}
+.sessioni img {height: 12px;float: right;margin-right: 50px}
+.arr-ses {color: #b6b6b6;position:absolute;top:35px;right: 15px;}
+
+/* sessioni dett */
+.dett-ses {margin-top: 18px;}
+.dett-ses h2 {text-align: center;font-family: 'museo_sans500';margin-top: 35px;}
+.dett-ses p {margin-top: 0px;}
+.dett-ses label {padding-left: 0px;}
+.dett-ses span {margin-left: 0px;color: #08c2dc;font-family: 'museo_sans300';margin-left:0px;font-size: 14px;}
+.dom-risp {padding-left: 0px;}
+
+/* login partecipa */
+label .input-label {display:block; width: 100%;padding: 12px 10px 0px 0px;max-width: none;color: #a8a8a8;font-family: 'museo_sans300';font-size: 14px;text-transform: uppercase;}
+label input[type="text"], input[type="password"] {font-family: 'museo_sans300';color: #303030;font-size: 18px;margin-right:20px;border-bottom: 1px solid #f3f3f3;}
+
+.img-login {text-align: center;margin-top: 25px;}
+.img-login img{width: 50%}
+
+/* info page */
+label .info {display:inline;}
+.info {padding-bottom: 0px;}
+.info-ico {color: #a8a8a8;}
+.arr-info {color: #b6b6b6;position: absolute;top: 18px;right: 15px;}
+
+.info-dett {text-align: center;}
+.info-dett h2 {font-size:16px;text-transform:uppercase;font-family: 'museo_sans500';margin-top: 35px;}
+.info-dett img {width: 80%;}
+
+/* bottom menu */
+.bottom {position: absolute; bottom: 0px; width: 250px;height:100px;padding-left: 25px;text-align: center;background-color: #d01e7f;}     
+.bottom hr {display:block;width: 220px;border-color: #e06dac;}
+.cont-img{height:30px;display:block;}
+.left {height: 25px;float: left;}
+.right {height: 23px;float: right;margin-top:2px;}
+.centro {height: 16px;}
+.middle {width: 150px!important;}
+
+/* chat */
+.bg-chat {background-image:url('../img/back_chat.jpg');background-repeat:no-repeat;width: 100%; background-size: cover;bottom:55px;}
+.bg-chat2 {background-image:url('../img/back_chat.jpg');background-repeat:no-repeat;width: 100%; background-size: cover;}
+
+.out {margin-top: 5px;margin-right: 5px;}
+.invia {color: #8e8e8e!important;font-family: 'museo_sans500';}
+
+.message {overflow: hidden; padding: 5px 5px 10px 0;text-align: right;}
+.blu span {background:#08c2dc!important;}
+.message span {background:#d01e7f;color:#fff;padding:10px;display:inline-block;border-radius: 10px;text-align:left;max-width:80%;}
+.message strong {float: right;}
+.photo {height: 44px;width: 44px;margin-left: 10px;background-color: #d6d6d6;background-size: cover;float: right;font-size: 50px;text-align: center;border-radius: 50%;overflow: hidden;}
+
+.chat {padding: 10px;background-color: #f1f1f1;font-family: 'museo_sans300';min-height: 55px;}
+.chat button {float:right; width: 20%;color: #fff;}
+.chat input {padding-left:10px;background-color: #fff!important;border-radius: 5px;width: 80%;}
+
+.error-container {margin: 5px 0;}
+.error-container:last-child {margin: 5px 0 0;}
+.error {padding: 10px 16px;font-family: 'museo_sans300';font-size: 11px;text-transform: uppercase;color: #555;vertical-align: middle;}
+.error i {font-size: 24px;color: #B83E2C;vertical-align: middle;}
+.last-error-container > .error {padding: 10px 16px 0;}
+.has-errors {border-bottom: 3px solid #B83E2C;}
+.no-errors {border-bottom: 3px solid green;}
+.px12{font-size:10px;float:right;display:block;}

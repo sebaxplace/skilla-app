@@ -1,0 +1,43 @@
+<ion-view hide-tab-bar view-title="{{posterlabIcon}} PosterLab">
+
+<ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+
+  <ion-content ng-repeat="avanzato in avanzatos" ng-show="avanzato.id=={{avanzatoid}}">
+
+    <ion-item class="item-profile">
+  <div class="dett-posterlab">
+    <img src="data/img/{{avanzato.immagine}}">
+    
+    
+    <div class="item-body text-posterlab-avanzato">
+    	<h2 class="rosso">{{avanzato.titolo}}</h2>
+    <h3 ng-bind-html="to_trusted(avanzato.sottotitolo)"></h3>
+
+      <p ng-bind-html="to_trusted(avanzato.testo)"></p>
+    </div>
+
+    <label class="item">
+      <button ng-click="goChat()" class="button button-block button-magenta">Vai al PosterLab</button>
+    </label>
+
+    <div class="row poster-footer">
+    <div class="col">
+      <img src="img/loghi/percorso_avanzato_p.svg">
+      <span class="rosso">percorso</span><br/>
+      <p>avanzato</p>
+    </div>
+    <div class="col">
+      <i class="ion-ios-gear ico-focus"></i>
+      <span class="rosso">focus</span><br/>
+      <p ng-bind-html="to_trusted(avanzato.focus)"></p>
+    </div>
+  </div> 
+    
+  </div>
+</ion-item>
+  </ion-content>
+</ion-view>
+

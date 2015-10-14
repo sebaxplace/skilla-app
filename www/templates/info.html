@@ -1,0 +1,12 @@
+<ion-view view-title="{{infoIcon}} Info">
+  <ion-content>
+    <label class="item info"><i class="ion-ios-world-outline info-ico"></i> <span class="input-label info">Sito web</span></label>
+    <a class="item info-link" href="#" onClick="window.open('http://www.skilla.com','_blank','location=yes');return false;">www.skilla.com <i class="ion-ios-arrow-right arr-info"></i></a>
+
+
+    <label class="item info"><i class="ion-ios-ionic-outline info-ico"></i> <span class="input-label info">Scopri le sale dell' evento</span></label>
+    <div ng-repeat="sale in sales">
+	<a class="item info-link" href="#/app/info/{{sale.id}}">{{sale.nome}} <i class="ion-ios-arrow-right arr-info"></i></a>
+    </div>
+  </ion-content>
+</ion-view>

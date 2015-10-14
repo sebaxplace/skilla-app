@@ -1,0 +1,42 @@
+<ion-view hide-tab-bar view-title="{{posterlabIcon}} PosterLab">
+
+<ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+
+  <ion-content ng-repeat="base in bases" ng-show="base.id=={{baseid}}">
+    <ion-item class="item-profile">
+  <div class="dett-posterlab">
+    <img src="data/img/{{base.immagine}}">
+    
+    
+    <div class="item-body text-posterlab-base">
+    <h2 class="arancio">{{base.titolo}}</h2>
+    <h3 ng-bind-html="to_trusted(base.sottotitolo)"></h3>
+
+    	<p ng-bind-html="to_trusted(base.testo)"></p>
+    </div>
+
+    <label class="item">
+      <button ng-click="goChat()" class="button button-block button-magenta">Vai al PosterLab</button>
+    </label>
+
+    <div class="row poster-footer">
+    <div class="col">
+      <img src="img/loghi/percorso_base_p.svg">
+      <span class="arancio">percorso</span><br/>
+      <p>base</p>
+    </div>
+    <div class="col">
+      <i class="ion-ios-gear ico-focus"></i>
+      <span class="arancio">focus</span><br/>
+      <p ng-bind-html="to_trusted(base.focus)"></p>
+    </div>
+  </div> 
+    
+  </div>
+</ion-item>
+  </ion-content>
+</ion-view>
+

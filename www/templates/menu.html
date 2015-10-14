@@ -1,0 +1,54 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      <i class="ion-ios-close-outline normal"></i>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-content>
+      <ion-list id="navigazione">
+      <ion-item menu-close href="#/app/home" class="item-icon-right">
+          <i class="ion-ios-home-outline normal"></i> Home
+        </ion-item>
+        <ion-item menu-close href="#/app/posterlab/base" class="item-icon-right">
+          <i class="ion-ios-calendar-outline normal"></i> PosterLab
+        </ion-item>
+        <ion-item menu-close href="#/app/relatori" class="item-icon-right">
+          <i class="ion-ios-list-outline normal"></i> Relatori
+        </ion-item>
+        <ion-item menu-close href="#/app/comitato" class="item-icon-right">
+          <i class="ion-ios-people-outline center"></i> Comitato<br/><span>scientifico</span>
+        </ion-item>
+        <ion-item menu-close href="#/app/partecipa" class="item-icon-right">
+          <i class="ion-ios-chatboxes-outline normal"></i> Partecipa
+        </ion-item>
+        <ion-item menu-close href="#/app/sessioni" class="item-icon-right">
+          <i class="ion-ios-folder-outline normal"></i> Le mie sessioni
+        </ion-item>
+        <ion-item menu-close href="#/app/info" class="item-icon-right">
+          <i class="ion-ios-information-outline normal"></i> Info
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+    
+  <div class="bottom">     
+        <hr />
+        <div class="cont-img">
+        <a href="#" ng-href="http://www.skilla.com/" onclick='window.open(this.href, "_system", "location=yes"); return false;'><img class="left" src="img/loghi/logo_skilla_menu.svg"></a>
+        <a href="#" ng-href="http://www.samsung.com/it/business/" onclick='window.open(this.href, "_system", "location=yes"); return false;'><img class="right" src="img/loghi/logo_samsung_menu.svg"></a>
+        </div>
+        <hr class="middle" />
+        <a href="#" ng-href="http://www.xplacecompany.com/" onclick='window.open(this.href, "_system", "location=yes"); return false;'><img class="centro" src="img/loghi/powered_xplace_footer.png"></a>
+        
+    </div>
+</ion-side-menus>

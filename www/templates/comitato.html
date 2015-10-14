@@ -1,0 +1,18 @@
+<ion-view view-title="{{comitatoIcon}} Comitato scientifico">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="comitato in comitatos" class="list-pos">
+         
+    <a class="item item-avatar lista">
+      
+      <h2>{{comitato.nome}} <strong>{{comitato.cognome}}</strong></h2>
+      <div class="item-body" style="padding:0px">
+      <span>{{comitato.descrizione}}</span>
+      </div>
+      <!--<img src="img/avatar.jpg">-->
+    </a>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

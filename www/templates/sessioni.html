@@ -1,0 +1,27 @@
+<ion-view cache-view="false" view-title="{{sessioniIcon}} Le mie sessioni">
+  <ion-content>
+  <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+   
+    
+    <div class="item-body sessioni" style="text-align:center;" ng-if="$root.showExtraButton">
+	    <h2>Nessuna sessione registrata</h2><p>Non hai ancora partecipato a nessun PosterLab</p>
+	    <button class="button button-block button-magenta" ng-click="goChat()">
+			Partecipa ai PosterLab
+		</button>
+	</div>
+
+    <ion-list>
+      <ion-item ng-repeat="sessioni in sessions" class="list-pos">
+         
+    <a class="item sessioni" href="#/app/sessioni/{{sessioni.id}}">
+      <span>{{sessioni.data}}</span> 
+      <div class="item-body cont-titolo">
+      <h2>{{sessioni.titolo}}</h2>
+      </div>
+      <i class="ion-ios-arrow-right arr-ses"></i>
+    </a>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

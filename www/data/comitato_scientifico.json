@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "nome": "Pier Giuseppe",
+        "cognome": "Rossi",
+        "descrizione": "Coordinatore - Università degli Studi di Macerata"
+    },
+    {
+        "id": 2,
+        "nome": "Franco",
+        "cognome": "Bocchino",
+        "descrizione": "Università del Salento"
+    },
+    {
+        "id": 3,
+        "nome": "Silvio",
+        "cognome": "Cardinali",
+        "descrizione": "Università Politecnica delle Marche"
+    },
+    {
+        "id": 4,
+        "nome": "Marc",
+        "cognome": "Durand",
+        "descrizione": "Università de Genève, Svizzera"
+    },
+    {
+        "id": 5,
+        "nome": "Gabriele",
+        "cognome": "Gabrielli",
+        "descrizione": "LUISS Guido Carli"
+    },
+    {
+        "id": 6,
+        "nome": "Pier Paolo",
+        "cognome": "Limone",
+        "descrizione": "Università di Foggia"
+    },
+    {
+        "id": 7,
+        "nome": "Fabio",
+        "cognome": "Nascimbeni",
+        "descrizione": "Universidad Internacional de la Rioja"
+    },
+    {
+        "id": 8,
+        "nome": "Silvia",
+        "cognome": "Ravazzani",
+        "descrizione": "Aarhus University, Danimarca"
+    },
+    {
+        "id": 9,
+        "nome": "Pier Cesare",
+        "cognome": "Rivoltella",
+        "descrizione": "Università Cattolica del Sacro Cuore"
+    },
+    {
+        "id": 10,
+        "nome": "Albert Sangrà",
+        "cognome": "Morer",
+        "descrizione": "UOC, Open University of Catalonia"
+    },
+    {
+        "id": 11,
+        "nome": "Maurizio",
+        "cognome": "Sibilio",
+        "descrizione": "Università degli Studi di Salerno"
+    },
+    {
+        "id": 12,
+        "nome": "Adriano",
+        "cognome": "Solidoro",
+        "descrizione": "Università degli Studi di Milano - Bicocca"
+    },
+    {
+        "id": 13,
+        "nome": "Carlo",
+        "cognome": "Tasso",
+        "descrizione": "Università degli Studi di Udine"
+    }
+]
+
+
+

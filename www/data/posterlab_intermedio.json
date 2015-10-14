@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "titolo": "eLearning per induction neo-assunti",
+        "sottotitolo": "Posso gestire i programmi di induction in eLearning? Come fare?<br/>Quali contenuti posso gestire?<br/>Ci sono esperienze di onboarding multimediale di successo? Come riutilizzare i vecchi materiali d’aula e trasformarli in eLearning?",
+        "testo": "Una presentazione completa di metodi, idee e tool per organizzare corsi eLearning mirati all’introduzione immediata ed efficace dei <strong>neo-assunti in azienda</strong>. Il posterLab illustra format, metodi e percorsi formativi che hanno l’obiettivo di agevolare l’<strong>orientamento dei dipendenti</strong> all’interno della realtà aziendale. E in un’ottica “re-use”, spazio anche alle soluzioni per il <strong>riutilizzo dei materiali</strong> di comunicazione aziendale nell’induction dei neo-assunti.",
+        "immagine": "intermedio-11.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 2,
+        "titolo": "eLearning per il performance management",
+        "sottotitolo": "Abbiamo un programma di performance management, dobbiamo formare valutatori e valutati sulle competenze chiave del programma, posso utilizzare l’eLearning?<br/>Come dare una rapida visione d’insieme della tappe fondamentali del nostro processo di performance management?<br/>Come legare il momento della valutazione ai percorsi di formazione e sviluppo delle persone?",
+        "testo": "Il posterLab introduce ai corsi eLearning come supporto per aiutare a comprendere e spiegare il processo di <strong>performance management</strong> a tutti i soggetti coinvolti. I percorsi multimediali possono essere utilizzati per comunicare le fasi del processo e sviluppare le competenze chiave, così come corsi eLearning, possono supportare il valutatore nell’assegnazione degli obiettivi, nella <strong>valutazione della performance</strong>, nel rilasciare un feedback costruttivo. Proposte formative online sono dedicate anche al soggetto sotto valutazione, per aiutarlo a recepire il <strong>feedback</strong> come opportunità di crescita e per affiancarlo nella progettazione del proprio sviluppo professionale.",
+        "immagine": "intermedio-12.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 3,
+        "titolo": "eLearning per la qualità del front-line",
+        "sottotitolo": "Come formare on line il personale a diretto contatto con i clienti?<br/>Come migliorare la qualità dell’accoglienza e della presa in carico del cliente allo sportello e nel punto vendita?<br/>Come stimolare attraverso corsi eLearning la proattività nel servizio e nella vendita?",
+        "testo": "Il posterLab presenta tutto il ventaglio di opportunità offerte dai corsi eLearning per poter contare su un <strong>front-line di qualità</strong>, in termini di sviluppo delle competenze dell’<strong>accoglienza</strong> e <strong>proattività</strong>. Si passerà poi a conoscere i percorsi online specifici per i diversi contesti, ad esempio quello del punto di vendita o di contatto con il cliente ed anche alle soluzioni particolari per l’ottimizzazione della formazione nei vari momenti di pausa della quotidianità lavorativa.",
+        "immagine": "intermedio-13.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 4,
+        "titolo": "eLearning per la formazione venditori",
+        "sottotitolo": "Posso sviluppare percorsi di formazione sulle tecniche di vendita per la mia rete?<br/>È possibile sviluppare percorsi di motivazione?<br/>Quali sono i trend emergenti per coinvolgere le reti vendita con app, gamification, nuovi dispositivi?",
+        "testo": "La <strong>rete vendita</strong> è protagonista di questo posterLab, che spiega come sfruttare le potenzialità dell’eLearning e del <strong>mobile learning</strong> per raggiungere e interagire con questo target: dalla formazione del personale sulle tecniche di vendita a quella sulle caratteristiche di prodotti o servizi. Passaggio importante sarà quello dedicato all’applicazione delle ultime tendenze, fra app e device, nei <strong>metodi di coinvolgimento</strong>. Nel finale, spazio “tips&warning”: carte da giocare ed errori da evitare.",
+        "immagine": "intermedio-14.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 5,
+        "titolo": "Coaching ed eLearning per lo sviluppo della leadership",
+        "sottotitolo": "Come coinvolgere i nostri responsabili in percorsi di autoformazione sui temi della leadership?<br/>È possibile utilizzare l’eLearning per supportare percorsi di coaching e di sviluppo delle competenze manageriali?<br/>Ci sono format e contenuti emergenti per la formazione dei leader?",
+        "testo": "L’eLearning come prezioso ausilio per l’integrazione di percorsi di <strong>coaching</strong> e il <strong>potenziamento delle competenze manageriali</strong>, attraverso percorsi mirati. Il posterLab mostra, fra nuovi format e contenuti, quegli strumenti di formazione online che sono oggi in grado di fornire soluzioni adeguate alle esigenze del leader, processo formativo che richiede massima ottimizzazione dei tempi e aggiornamento costante.",
+        "immagine": "intermedio-15.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 6,
+        "titolo": "eLearning sull’interculturalità e il diversity management",
+        "sottotitolo": "In azienda interagiamo sempre di più con persone di diverse culture, posso utilizzare programmi eLearning sui temi della cross-comunication e dell’interculturalità?<br/>Esistono percorsi online per favorire l’integrazione in azienda tra persone di età diversa?<br/>Come far diventare la diversità una risorsa?",
+        "testo": "Il posterLab si apre ai temi del <strong>diversity</strong> e mostra come i percorsi online possano rappresentare dei viaggi alla scoperta di <strong>culture diverse</strong> e favorire un approccio orientato all’empatia. Spazio allora all’elaborazione di percorsi multimediali mirati a fornire suggerimenti ed accorgimenti e agli errori da evitare nell’interazione con persone di altre culture. Il posterLab affronterà anche l’aspetto <strong>della age diversity</strong> e gap generazionale, consigliando i percorsi eLearning più adeguati per promuovere l’<strong>integrazione</strong> tra persone di età e generazioni diverse, valorizzando il meglio di ciascuna.",
+        "immagine": "intermedio-16.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 7,
+        "titolo": "eLearning per il change management",
+        "sottotitolo": "Viviamo continui cambiamenti, stress organizzativi e innovazioni, è possibile introdurre la cultura del cambiamento continuo?<br/> Come formare alle competenze necessarie per vivere positivamente il cambiamento, anche in modalità eLearning?",
+        "testo": "Il <strong>cambiamento</strong> può essere vissuto come variabile da gestire, ma anche come una sfida costruttiva ed un’<strong>opportunità di miglioramento</strong>. Grazie all’ausilio dei corsi eLearning questo è possibile e il posterLab andrà ad esplorare le varie soluzioni, fra metodi e contenuti, per un efficace programma di eLearning sul <strong>change management</strong>. Spazio anche all’aspetto dei linguaggi, indicando quelli più adeguati per un buon esito della formazione.",
+        "immagine": "intermedio-17.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 8,
+        "titolo": "eLearning per il project management",
+        "sottotitolo": "La nostra organizzazione lavora sempre più per progetti, posso utilizzare l’eLearning per sviluppare una cultura diffusa sul project management?<br/>Come fare?<br/>Posso far apprendere rapidamente l’uso di tool specifici?",
+        "testo": "L’eLearning rappresenta un prezioso strumento per l’apprendimento degli strumenti di <strong>project management</strong>, per una diffusione della cultura del lavoro per progetti e per gestire positivamente il <strong>cambiamento culturale</strong> che ne consegue. Nel posterLab saranno esplorate le modalità per costruire percorsi multimediali mirati ad illustrare gli strumenti di project management e a favorire la loro rapida comprensione e sperimentazione.",
+        "immagine": "intermedio-18.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 9,
+        "titolo": "eLearning su processi e procedure aziendali",
+        "sottotitolo": "In azienda esistono tante procedure, dalle più semplici alle più complesse, vorremmo dei corsi eLearning per ogni procedura, ci sono dei format pronti all’uso?<br/>Cosa fare quando cambia una procedura, devo rifare il corso o posso cambiare solo la parte modificata?<br/>Infografiche e visual thinking possono aiutare a snellire e comprendere complicate procedure?",
+        "testo": "L’eLearning può offrire una soluzione in grado di facilitare e perfezionare <strong>l’apprendimento delle procedure</strong> che un’azienda si trova quotidianamente ad applicare. I corsi possono essere strutturati per promuovere il cambiamento, <strong>incentivare l’adesione</strong> e l’utilizzo delle nuove procedure. Il posterLab evidenzierà i punti di forza dell’apprendimento online: far comprendere ed assimilare procedure complesse attraverso <strong>linguaggi efficaci</strong> ed <strong>incisivi</strong>, come tutorial, infografiche e visual thinking.",
+        "immagine": "intermedio-19.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 10,
+        "titolo": "eLearning per accompagnare l’introduzione di nuovi software",
+        "sottotitolo": "Abbiamo introdotto nuovi software e sistemi gestionali, come formare le persone all’uso con l’eLearning?<br/>Esistono software che mi aiutano a catturarne in forma dinamica le principali funzioni?<br/>Posso produrre questi corsi in autonomia?",
+        "testo": "L’eLearning rappresenta un valido supporto per l’alfabetizzazione in tema di <strong>nuovi software</strong>, capace di assicurare efficacia e rispetto dei tempi di apprendimento di ogni persona. Il posterLab si svilupperà intorno ai metodi e agli strumenti per creare <strong>percorsi eLearning on demand</strong>, per la soluzione di problemi legati all’utilizzo di nuovi software. A fine esplorazione, focus sui linguaggi ed i software più idonei e più adeguati per produrre in <strong>autonomia</strong> percorsi in eLearning sul tema. In particolare simulazioni, video, tutorial dinamici e visuali garantiscono un’immersione che avvicina all’uso e alla conoscenza dei nuovi software.",
+        "immagine": "intermedio-20.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 11,
+        "titolo": "eLearning sul prodotto",
+        "sottotitolo": "Vorremmo presentare le caratteristiche ed i vantaggi dei nostri prodotti in eLearning, per la rete vendita, distributori e rete di assistenza, come fare?<br/>Posso introdurre anche le specifiche tecniche di vendita?<br/>Potrò utilizzare parti di questi corsi anche per i servizi di post vendita e per fidelizzare i clienti?",
+        "testo": "Un posterLab in cui eLearning e <strong>Knowledge Management</strong> si incontrano. La conoscenza del prodotto è un asset di valore per l’azienda ed i materiali multimediali sul prodotto possono assicurare che venga preservata. Il posterLab esplora le possibilità per realizzare corsi eLearning con struttura modulare mirati alla gestione del <strong>passaggio di conoscenza</strong> tra le generazioni e a far conoscere le caratteristiche dei prodotti alla rete vendita, ai distributori, a chi si occupa dell’assistenza al cliente, ma anche al cliente stesso. Possono inoltre essere previsti anche <strong>corsi on demand</strong> per la gestione dell’help desk. Il poster evidenzia l’ideale connessione tra i processi formativi e quelli volti al ripensamento del flusso di conoscenza interno all’azienda. Il posterLab suggerirà metodi, linguaggi ed ambienti più idonei per fare eLearning sul prodotto.",
+        "immagine": "intermedio-21.jpg",
+        "focus": "Contenuti"
+    }
+]

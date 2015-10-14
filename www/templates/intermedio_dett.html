@@ -1,0 +1,42 @@
+<ion-view hide-tab-bar view-title="{{posterlabIcon}} PosterLab">
+
+<ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+
+  <ion-content ng-repeat="intermedio in intermedios" ng-show="intermedio.id=={{intermedioid}}">
+
+    <ion-item class="item-profile">
+  <div class="dett-posterlab">
+    <img src="data/img/{{intermedio.immagine}}">
+    
+    <div class="item-body text-posterlab-intermedio">
+    	<h2 class="ciano">{{intermedio.titolo}}</h2>
+    <h3 ng-bind-html="to_trusted(intermedio.sottotitolo)"></h3>
+
+      <p ng-bind-html="to_trusted(intermedio.testo)"></p>
+    </div>
+
+    <label class="item">
+      <button ng-click="goChat()" class="button button-block button-magenta">Vai al PosterLab</button>
+    </label>
+
+    <div class="row poster-footer">
+    <div class="col">
+      <img src="img/loghi/percorso_intermedio_p.svg">
+      <span class="ciano">percorso</span><br/>
+      <p>intermedio</p>
+    </div>
+    <div class="col">
+      <i class="ion-ios-gear ico-focus"></i>
+      <span class="ciano">focus</span><br/>
+      <p ng-bind-html="to_trusted(intermedio.focus)"></p>
+    </div>
+  </div> 
+    
+  </div>
+</ion-item>
+  </ion-content>
+</ion-view>
+

@@ -1,0 +1,17 @@
+<ion-view hide-back-button="true" view-title="{{posterlabIcon}} PosterLab">
+<ion-content class="list-posterlab">
+<ion-list>
+<ion-item ng-repeat="intermedio in intermedios" class="list-pos">
+
+<a class="item sessioni" href="#/app/posterlab/intermedio/{{intermedio.id}}"> 
+  <img src="img/loghi/percorso_intermedio_p.svg">
+  <div class="item-body cont-titolo">
+    <h2>{{intermedio.titolo}}</h2>
+  </div>
+  <i class="ion-ios-arrow-right arr-ses"></i>
+</a>
+
+</ion-item>
+</ion-list>
+</ion-content>
+</ion-view>

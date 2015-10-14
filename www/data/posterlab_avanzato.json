@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "titolo": "Standard minimo di competenze digitali",
+        "sottotitolo": "Vogliamo diventare un'organizzazione evoluta in campo digitale, come valutare l’attuale standard di competenze digitali della popolazione aziendale?<br/>Esistono questionari o modelli di assessment specifici? Come gestirli?<br/>Come utilizzare l’eLearning per sviluppare una cultura digitale evoluta in tutta la popolazione aziendale?",
+        "testo": "Sempre di più oggi, al personale delle organizzazioni, è richiesto uno “standard minimo di competenze digitali” necessario per partecipare alle pratiche di <strong>social learning digitale</strong>: requisito minimo senza il quale l’azienda scivola nell’analfabetismo comunicativo e nella rapida emarginazione. Il posterLab evidenzia i diversi possibili comportamenti delle persone in azienda, attraverso un interessante confronto best VS worst practices. Focus anche sulle tecniche per l’<strong>assessment</strong> del livello di partecipazione e <strong>cultura digitale aziendale</strong>. L’esplorazione si conclude con una panoramica sulle soluzioni eLearning mirate all’omogeneizzazione del livello di cultura digitale e alla diffusione di un’adeguata alfabetizzazione.",
+        "immagine": "avanzato-22.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 2,
+        "titolo": "Reverse mentoring",
+        "sottotitolo": "Abbiamo problemi di alfabetizzazione ai nuovi ambienti online e tecnologie, posso utilizzare i giovani digitali dell’azienda per programmi di alfabetizzazione digitale di base?<br/>Posso utilizzare i giovani anche per programmi evoluti di reverse mentoring? Come fare? Come selezionarli e formarli a questa attività?<br/>Esistono esperienze di successo e un protocollo collaudato?",
+        "testo": "La chiave del successo risiede spesso nel confronto, nella condivisione ed integrazione tra le diverse generazioni. Oggetto del posterLab è la costruzione di un protocollo per l’avvio in azienda di esperienze di <strong>Reverse Mentoring</strong>. L’analisi di case history di successo permetterà di individuare il giusto approccio e possibili difficoltà ed ostacoli. Il posterLab dimostra che è possibile formare i giovani coinvolti nel programma e <strong>motivare i senior</strong> a partecipare.",
+        "immagine": "avanzato-23.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 3,
+        "titolo": "Gamification",
+        "sottotitolo": "Come posso introdurre gamification e attività di serious games nei percorsi eLearning? Quali risultati posso ottenere?<br/>Perché sta diventando sempre più importante?<br/>Come funziona?",
+        "testo": "L’esplorazione punta al gioco. Una delle strategie più efficienti per ottenere il <strong>coinvolgimento</strong> delle persone è introdurre <strong>meccaniche ludiche</strong> all’interno dei percorsi eLearning. Come nelle dinamiche di un gioco, l’utente è chiamato a partecipare in prima persona ad una <strong>company competition</strong>, in cui ha obiettivi da raggiungere e ricompense da guadagnare. Il posterLab evidenzia i vantaggi offerti dalla <strong>gamification</strong> in termini di motivazione ed efficacia dell’apprendimento; focus sulle tecniche per inserire questa attività all’interno di percorsi eLearning e sui metodi per mutuare i meccanismi del gioco nella progettazione dei percorsi.",
+        "immagine": "avanzato-24.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 4,
+        "titolo": "Social learning digitale",
+        "sottotitolo": "Come costruire, alimentare, gestire community di apprendimento online? Quale cultura e competenze digitali sono necessarie per creare esperienze arricchenti e di successo?<br/>Vogliamo gestire community che producano idee di innovazione, come realizzarle? Come gestire un concorso di idee?<br/>Quale supporto digitale serve? Come formare una rete di animatori e promotori di innovazione?",
+        "testo": "Condivisione e collaborazione rappresentano fattori capaci di potenziare i percorsi di <strong>apprendimento online</strong> in azienda. Il posterLab esplora metodi e strumenti per sfruttare al massimo le potenzialità dei <strong>social network aziendali</strong>; viene mostrato come renderli un valido supporto all’eLearning, grazie alla loro capacità di dare spazio, voce e strumenti alle comunità di pratiche aziendali: gruppi di persone che condividono linguaggi e pratiche, che costruiscono nuove soluzioni e nuova conoscenza. Seguirà l’illustrazione degli ambienti e dei tool per supportare la creazione di idee on line, sondaggi e produzione collaborativa.",
+        "immagine": "avanzato-25.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 5,
+        "titolo": "Certificazioni e open badge",
+        "sottotitolo": "Come valutare le competenze in ingresso, in itinere, alla conclusione del percorso formativo online? È possibile certificare competenze a distanza?<br/>Come gestire il tracciamento e la certificazione ai fini delle finanziabilità dei percorsi online?<br/>Come si possono usare gli Open Badge nelle Academy aziendali?",
+        "testo": "Ogni esperienza di apprendimento comporta un <strong>cambiamento</strong>. Nell’eLearning aziendale occorre comprendere quali nuove competenze sono state acquisite, quali potenziate e in che misura. Nel posterLab vengono esplorati tutti i <strong>canali di certificazione</strong> delle competenze in ingresso e in uscita nei percorsi eLearning, per passare poi alla panoramica sull’<strong>offerta nel settore della certificazione</strong>: ad esempio, l’open badge per la certificazione competenze acquisite on line, indicatori digitali contenenti metadati sul rilascio del badge, criteri di valutazione ed altre informazioni. Sarà anche mostrato come visualizzare l’acquisizione dei badge con Moodle e Linkedin.",
+        "immagine": "avanzato-26.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 6,
+        "titolo": "Visual thinking ed infografiche dinamiche",
+        "sottotitolo": "Quali vantaggi possono apportare visual thinking, data visualization e infografiche alla formazione online a alla comunicazione interna? Come svilupparli in autonomia?<br/>Esistono software di supporto?<br/>Rinforzano l’apprendimento?",
+        "testo": "Focus sul <strong>Visual Thinking</strong>. Nel “pensare per immagini”, il pensiero si fa visione e immagine, riprocessando concetti, idee e programmi. Il Visual Thinking rappresenta un’impareggiabile risorsa per l’<strong>apprendimento</strong>, per la sua capacità di sfruttare il potere del <strong>sistema immaginativo</strong>. Il posterLab presenterà la concreta applicazione del VT nei percorsi eLearning, individuando le risorse formative più rispondenti a questo strumento.",
+        "immagine": "avanzato-27.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 7,
+        "titolo": "library aziendali con risorse interne ed esterne. MOOCs.",
+        "sottotitolo": "Come utilizzare il vasto patrimonio di risorse formative on line presenti su Youtube/lesson, Ted, Scridb, Slideshare, e molti altri ambienti?<br/>Come utilizzare in azienda l’enorme biblioteca di corsi MOOCs? Come gestire il problema del copyright?<br/>Come capitalizzare tutto il patrimonio interno di conoscenza, per il riutilizzo formativo online? Come organizzare una library aziendale? Che investimenti devo fare? Con quali ambienti tecnologici?",
+        "testo": "Il posterLab entra nelle <strong>library aziendali</strong>, gli ambienti di condivisione pensati per lo storage di risorse formative aziendali (PowerPoint, dispense o video), che vengono messe a disposizione per l’<strong>autoapprendimento</strong> e l’aggiornamento del personale. La <strong>virtual library</strong>, utilizzata per facilitare la condivisione di informazioni, l’autoformazione e l’informal learning, risulta particolarmente utile nelle grandi realtà operanti su scala multinazionale/globale, con team di lavoro geograficamente dispersi. Panoramica su come questi ambienti possono aprirsi alla rete e sulle molteplici possibilità formative disponibili: YouTube, Ted, Scridb, Slideshare, MOOCs, ecc.",
+        "immagine": "avanzato-28.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 8,
+        "titolo": "Produrre in autonomia percorsi eLearning",
+        "sottotitolo": "Come formare un team interno in grado di sviluppare percorsi eLearning in autonomia? Quali professionalità servono? Quanto tempo ci vuole?<br/>Quando conviene produrre all’interno e quando invece acquistare corsi eLearning dall’esterno?<br/>Posso produrre in autonomia anche filmati televisivi dove i protagonisti siamo noi? Può essere un’esperienza motivante per le persone?",
+        "testo": "Tutti i vantaggi della <strong>produzione in autonomia di percorsi eLearning</strong> in un posterLab: il fruitore del corso passa dall’avere il classico ruolo passivo ad essere soggetto attivo nelle fasi di progettazione e produzione. E ancora, il vantaggio conseguente al <strong>rapid learning</strong>, una scelta veloce, economica e gestibile in <strong>autonomia</strong> dal personale dell’azienda. Il posterLab condivide anche una serie di casi di successo che mostrano l’esperienza di <strong>partecipazione attiva</strong> al processo di creazione dei materiali formativi.",
+        "immagine": "avanzato-29.jpg",
+        "focus": "Metodologie<br/>Tecnologie"
+    },
+    {
+        "id": 9,
+        "titolo": "Intranet e web tv come ambienti formativi",
+        "sottotitolo": "Posso utilizzare l’intranet come ambiente formativo? Come fare? È utile dedicare appositi spazi dell’intranet alle attività della formazione?<br/>Posso utilizzare l’intranet per brevi stimoli formativi quotidiani? Su quali argomenti?<br/>Come creare un canale webTV aziendale? Quali sinergie creare con la comunicazione interna?",
+        "testo": "Il posterLab entra nel pianeta <strong>Intranet<strong>. Punto di incontro e snodo di comunicazione, formazione e lavoro, la Intranet aziendale rappresenta un valido mezzo di <strong>collaborazione</strong> fra le persone, capace di contribuire a migliorare la <strong>produttività</strong> e il <strong>benessere</strong> in azienda. Il posterLab illustra come creare nella intranet aziendale un ambiente di apprendimento ecosistemico che connetta le varie risorse presenti e come renderlo più appealing&engaging, grazie a un design esteticamente accattivante e funzionale. Infine spazio anche alla <strong>web tv</strong>, quale strumento formativo per veicolare formazione con l’ausilio di video e cartoon.",
+        "immagine": "avanzato-30.jpg",
+        "focus": "Tecnologie"
+    },
+    {
+        "id": 10,
+        "titolo": "Mobile learning",
+        "sottotitolo": "Quale formazione online è possibile con tablet e smartphone? Per quali popolazioni aziendali è lo strumento ideale?<br/>La nostra azienda ha già acquisito molti corsi eLearning negli anni, come riutilizzarli per la fruizione da mobile?<br/>Quali sono i trend di sviluppo?",
+        "testo": "Un posterLab dedicato alla formazione con <strong>dispositivi a distanza</strong>, fra vantaggi e target di riferimento: formazione sempre e ovunque, minor scarto tra tempo di lavoro e tempo di training, continuità dell’esperienza, capacità di arrivare a personale altrimenti “irraggiungibile” coi metodi tradizionali. I target privilegiati per questa modalità formativa sono le reti vendita, i manager sempre in viaggio, i tecnici attivi sul territorio, il personale operativo. Formare là e dove serve! E non è necessaria doppia progettazione, in quanto è possibile realizzare materiali adattati automaticamente a diversi device (pc, tablet, smartphone). Focus sulla riprogettazione delle risorse eLearning per l’adattamento al <strong>nuovo contesto</strong> e per <strong>valorizzare l’esperienza di apprendimento</strong>. Il posterLab va poi ad individuare le caratteristiche ideali dei prodotti formativi e delle risorse didattiche, in termini di dimensioni e layout grafico, richieste per un’ideale fruizione da smartphone e tablet.",
+        "immagine": "avanzato-31.jpg",
+        "focus": "Metodologie<br/>Tecnologie"
+    },
+    {
+        "id": 11,
+        "titolo": "Dallo scorm al tin can",
+        "sottotitolo": "Gli standard per la condivisione dei corsi eLearning stanno cambiando?<br/>Tin Can permette di codificare l’informal learning?<br/>Che rapporto c’è tra il Tin Can ed i Big Data? Come preparare i nostri ambienti digitali ai nuovi standard?",
+        "testo": "<strong>SCORM</strong>, ovvero “Shareable Content Object Reference Model” rappresenta il più diffuso modello di riferimento per contenuti eLearning, concepito per rendere il contenuto formativo catalogabile, tracciabile e riutilizzabile in diversi ambienti o piattaforme LMS. Il posterLab esplora criticità e casi di successi legati all’applicazione di questo standard. Uno sguardo anche alle nuove vie richieste dalla criticità di SCORM e aperte dal progetto <strong>Tin-Can</strong>, in particolare nel Mobile learning: ad esempio, fruire i contenuti anche con una connessione non persistente e avere un tracciamento completo e aggiornato nel momento in cui la connessione alla piattaforma venga ristabilita.",
+        "immagine": "avanzato-32.jpg",
+        "focus": "Tecnologie"
+    },
+    {
+        "id": 12,
+        "titolo": "Apprendere con i simulatori",
+        "sottotitolo": "In quali ambiti è utile e conveniente costruire ambienti di simulazione per l’apprendimento?<br/>Che investimenti sono necessari?<br/>Quali vantaggi si ottengono?",
+        "testo": "L’esplorazione arriva agli <strong>ambienti di simulazione</strong>. Perché siano appresi, alcuni contenuti particolarmente complessi richiedono metodologie mirate all’<strong>integrazione di teoria e pratica</strong>. Attraverso il posterLab vengono illustrati proprio quei tool e tecniche del learning by doing che è utile conoscere, insieme a plus e potenzialità di <strong>ambienti immersivi</strong>, per simulare operazioni, procedure, comportamenti. Spazio anche all’offerta di metodi e format da impiegare nella simulazione e alla condivisione di casi applicativi di queste metodologie.",
+        "immagine": "avanzato-33.jpg",
+        "focus": "Tecnologie"
+    },
+    {
+        "id": 13,
+        "titolo": "Intelligenza artificiale e big data, orizzonti per l’eLearning",
+        "sottotitolo": "Come cambierà l’eLearning con le nuove frontiere del data management e dell’intelligenza artificiale?<br/>Come cambierà la formazione e lo sviluppo delle persone con le tecnologie di prossima generazione?<br/>Quali potenzialità delle innovazioni più recenti sono ancora sottovalutate?",
+        "testo": "Il posterLab esplora il raggio di applicazione di <strong>software agents a supporto dell’eLearning</strong>: nella ricerca delle informazioni, nella gamification, nell’analisi testuale, nella negoziazione, nella risoluzione del conflitto, nell’aggiornamento e notifica, ed in generale come supporto alla gestione e memorizzazione dei contenuti per rinforzare l’apprendimento. La prospettiva si apre alla tecnologia dell’<strong>Adaptive Learning</strong>, supporto per selezionare, scremare e riproporre informazioni personalizzate, e per la costruzione di percorsi su misura; grazie alla registrazione anticipata dei bisogni formativi degli utenti, l’ambiente e i prodotti formativi rispondono alle esigenze e caratteristiche individuali. Spazio anche al <strong>data management</strong>, con la sua capacità di facilitare e rendere i percorsi eLearning più intelligenti e adattivi.",
+        "immagine": "avanzato-34.jpg",
+        "focus": "Tecnologie"
+    },
+    {
+        "id": 14,
+        "titolo": "Storytelling digitale",
+        "sottotitolo": "In che modo le storie possono stimolare l’apprendimento degli adulti?<br/>Quali strumenti e tecnologie si possono usare per supportare la narrazione?<br/>Quali meccanismi narrativi possono essere introdotti nella progettazione di corsi eLearning?",
+        "testo": "Il <strong>racconto</strong> è da sempre un veicolo fondamentale per comunicare e far apprendere. Il posterLab esplora le tecniche, i meccanismi e i format narrativi più efficaci (autobiografia, diario, storia, war story…) da impiegare in <strong>contesti formativi</strong>. L’esplorazione prosegue negli <strong>ambienti digitali</strong> in grado di arricchire la narrazione di altri linguaggi (video, immagini), per concludere con i nuovi canali e linguaggi, concepiti per narrare storie e favorire l’apprendimento.",
+        "immagine": "avanzato-35.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 15,
+        "titolo": "Ecosistemi di apprendimento digitale",
+        "sottotitolo": "Come coordinare e far dialogare i vari ambienti digitali aziendali per l’apprendimento? Quali funzionalità deve avere un ambiente eLearning evoluto?<br/>Posso introdurre sistemi dinamici e automatici per il matching tra ruoli, competenze, risorse formative?<br/>Posso utilizzare software evoluti per la gestione di tutte le attività formali e informali di apprendimento?",
+        "testo": "Un posterLab dedicato all’<strong>esplorazione dei processi aziendali</strong>, che si configurano sempre di più come un ecosistema: niente più confini tra processi formativi e lavorativi; ogni attività potenzia e aggiunge valore all’intero ecosistema aziendale. Panoramica sugli <strong>ambienti digitali</strong> dedicati alla formazione (le piattaforme eLearning) o alla produttività (software per la pianificazione, per il performance management o gestionali) e su come possono comunicare ed aggiornarsi in automatico. L’esplorazione continua alla scoperta delle potenzialità dell’<strong>augmented learning</strong>, che prevede contenuti aggiuntivi ottenuti attraverso dispositivi mobili, grazie alle loro proprietà di portabilità, sensibilità al contesto, connettività ed ubiquità.",
+        "immagine": "avanzato-36.jpg",
+        "focus": "Metodologie"
+    }
+]

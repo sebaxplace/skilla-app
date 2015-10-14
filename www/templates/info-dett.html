@@ -1,0 +1,10 @@
+<ion-view view-title="{{infoIcon}} Info">
+<ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+  <ion-content class="info-dett" ng-repeat="sale in sales" ng-show="sale.id=={{saleid}}">
+    <h2>{{sale.nome}}</h2>
+    <img src="img/info_map.jpg">
+  </ion-content>
+</ion-view>

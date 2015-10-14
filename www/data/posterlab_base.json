@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "titolo": "Scegliere una piattaforma eLearning",
+        "sottotitolo": "Quale? Quanto costa? Nei server aziendali o in cloud?<br/>Come gestirla? Quanto costerà mantenerla?<br/>Può essere collegata all'anagrafica aziendale?",
+        "testo": "L’esplorazione parte con una panoramica sui principali <strong>ambienti per eLearning</strong> e su tutte le funzionalità di base ed avanzate. Da qui le indicazioni per scegliere la soluzione più adatta alle esigenze dell’azienda, valutando vantaggi e svantaggi tra una soluzione open source e una <strong>piattaforma proprietaria</strong>. E infine, tutto quanto c’è da sapere sulla piattaforma <strong>open source Moodle</strong>: caratteristiche, modalità di installazione e gestione del server, funzionalità di base ed avanzate.",
+        "immagine": "base-01.jpg",
+        "focus": "Tecnologie"
+    },
+    {
+        "id": 2,
+        "titolo": "Dal Power Point al tutorial multimediale",
+        "sottotitolo": "Ho tante lezioni in power point, come posso trasformarle in tutorial eLearning? Posso farlo internamente? Con quali software?<br/>Quali competenze mi servono?",
+        "testo": "Ogni azienda ha un archivio di lezioni aziendali in vari formati, spesso in PowerPoint, che possono essere convertite in <strong>tutorial eLearning</strong>. Il posterLab accompagnerà attraverso tutti gli step del percorso di <strong>trasformazione del materiale</strong>, per ottenere una migliore resa multimediale: la selezione dei materiali, la riorganizzazione e rielaborazione, il re-design del materiale formativo; non ultimo il lavoro di editing ed adattamento dei testi e del linguaggio. Parte del posterLab sarà dedicata all’illustrazione di alcuni strumenti: tool kit per sviluppare tutorial eLearning, <strong>librerie di icone</strong> e materiali grafici, stili grafici appealing per l’utente finale, <strong>animazioni</strong> e video. Il percorso termina con una overview sui principali software utilizzabili per lo sviluppo di tutorial multimediali.",
+        "immagine": "base-02.jpg",
+        "focus": "Tecnologie"
+    },
+    {
+        "id": 3,
+        "titolo": "Formazione obbligatoria in eLearning",
+        "sottotitolo": "Vorrei gestire in eLearning la formazione obbligatoria (sicurezza, privacy, 231, anticorruzione), come fare?<br/>E' più economico portare il corso all'interno o utilizzare soluzioni cloud? E se cambia la normativa?<br/>Ho visto molti corsi, sono spesso noiosi e pesanti, come renderli accattivanti e coinvolgenti? Come viene gestita la certificazione per rendere legalmente validi i corsi eLearning?",
+        "testo": "È possibile gestire in eLearning la <strong>formazione obbligatoria</strong> sui diversi temi della sicurezza, della privacy, del Decreto Legislativo 231 o anticorruzione e questa formazione viene riconosciuta dagli organismi di certificazione. Il posterLab, oltre all’aspetto economico delle diverse soluzioni, illustrerà come evitare il rischio che i corsi siano recepiti come doveri noiosi e pesanti (generando un’immagine negativa della formazione eLearning), renderli <strong>piacevoli</strong> ed <strong>accattivanti</strong>, come acquisire la conoscenza e le tecniche per renderli fruibili e memorizzabili e come costruire percorsi formativi piacevoli ed accattivanti, capaci di <strong>coinvolgere</strong> e rendere i partecipanti consapevoli dell’importanza dei temi trattati.",
+        "immagine": "base-03.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 4,
+        "titolo": "Dalla creazione dell’e-book alla gestione di collezioni editoriali",
+        "sottotitolo": "Abbiamo tante dispense cartacee, come trasformarle in e-book sfogliabili, interattivi bloccandone la stampa?<br/>Posso inserire link, filmati, contenuti multimediali? Ci sono software che posso utilizzare?<br/>Come posso gestire una collezione editoriale di e-book in azienda?",
+        "testo": "Realizzato in sinergia con FrancoAngeli Editore, il posterLab nasce per essere “sfogliato” e offrire un’interessante panoramica di tutti gli strumenti, le tecniche ed i metodi per trasformare le dispense cartacee in <strong>e-book</strong> o in <strong>documenti resi sfogliabili</strong> grazie ad applicativi specifici. Partendo dai più illuminanti testi di Franco Angeli dedicati al management, il percorso mostrerà anche le soluzioni tecnologiche più efficaci per la gestione di <strong>biblioteche digitali</strong> di e-book manageriali nella propria azienda.",
+        "immagine": "base-04.jpg",
+        "focus": "Tecnologie"
+    },
+    {
+        "id": 5,
+        "titolo": "Design e bellezza dell’eLearning",
+        "sottotitolo": "Abbiamo già fatto esperienze di eLearning, ma è stato percepito come noioso e pesante, è possibile dare vita ad esperienze belle e coinvolgenti?<br/>Posso fare restyling dei miei vecchi corsi?<br/>Quali sono le basi per un design dell’eLearning gradevole ed esteticamente evoluto?",
+        "testo": "Il posterLab è dedicato all’<strong>estetica dell’eLearning</strong> e alla creazione di materiale formativo efficace e <strong>coinvolgente</strong>, sia sotto l’aspetto grafico che concettuale, capace di garantire visibilità, chiarezza, rapidità di fruizione e molteplicità dei linguaggi. Indicazioni e insight saranno condivisi per scoprire come costruire materiali didattici: dall’organizzazione di testi snelli, fruibili e comprensibili fino alle diverse tipologie di learning object utilizzabili.<br/>Concreti esempi di corsi eLearning mostreranno come si realizza un’ideale <strong>armonia</strong> fra sostanza, efficacia e <strong>bellezza</strong>.",
+        "immagine": "base-05.jpg",
+        "focus": "Tecnologie"
+    },
+    {
+        "id": 6,
+        "titolo": "Formazione formatori interni digitali",
+        "sottotitolo": "Come far evolvere formatori e docenti interni verso la cultura digitale?<br/>Quanto tempo ci vuole?<br/>Come formare tutor di percorsi eLearning e di community online? Come organizzare e strutturare le Academy aziendali?",
+        "testo": "Un posterLab dedicato al “<strong>nuovo formatore</strong>”: un percorso per conoscere l’evoluzione di questo ruolo, grazie alle nuove tecniche e metodologie legate alle tecnologie più avanzate. Il posterLab presenta tutti gli strumenti a disposizione del formatore per scoprire la sua nuova veste ed il suo nuovo ruolo. Il nuovo formatore è sempre più <strong>gestore di percorsi blended</strong>, animatore di community,attivatore di processi di autoapprendimento. A completare l’approfondimento, un costruttivo confronto sulle esperienze di organizzazione, formazione e aggiornamento di <strong>Academy aziendali</strong>.",
+        "immagine": "base-06.jpg",
+        "focus": "Contenuti"
+    },
+    {
+        "id": 7,
+        "titolo": "Formare con i webinar",
+        "sottotitolo": "Quando è utile organizzare webinar? Quale tecnologia è necessaria? Quali i migliori software?<br/>Qual è la durata ideale? Quale il numero massimo dei partecipanti?<br/>Che materiali didattici utilizzare?",
+        "testo": "Focus sul webinar, seminario online, gestito con appositi applicativi, con cui si svolgono <strong>sessioni formative a distanza</strong>, condotte da un docente e fruite da partecipanti in modalità sincrona. Il posterLab illustrerà le possibili <strong>tecnologie</strong> e materiali didattici da utilizzare, i contesti, gli obiettivi che motivano l’organizzazione di un webinar, la pianificazione della sessione. Spazio anche alla discussione sull’interazione con i partecipanti e su come stimolare l’interesse in preparazione ad un <strong>webinar</strong>. Per concludere, utili indicazioni chiave su aspetti pratici pre e post webinar, come la registrazione dei partecipanti, la gestione dei dati a disposizione e la registrazione della sessione per una fruizione diacronica.",
+        "immagine": "base-07.jpg",
+        "focus": "Metodologie<br/>Tecnologiche"
+    },
+    {
+        "id": 8,
+        "titolo": "Una vera formazione blended",
+        "sottotitolo": "Voglio continuare a fare aula, ma ridurne radicalmente tempi e costi, come fare? Che attività progettare prima e dopo l’aula?<br/>Come integrare le diverse metodologie formative?<br/>Finanzio la formazione con i fondi interprofessionali, come posso certificare le varie attività della formazione blended?",
+        "testo": "Si parla di <strong>formazione blended</strong>, una vera “alchimia”, in cui i diversi elementi vanno accuratamente calibrati. Caratteristiche, vantaggi e peculiarità di ciascuna metodologia devono essere conosciute per poter essere integrate. Attraverso il posterLab sarà possibile scoprire nel dettaglio ciascuna metodologia: caratteristiche, punti di forza e vantaggi, per individuare il <strong>mix di metodologie</strong> e la combinazione ideale, che riduce al massimo i costi e sfrutta le potenzialità di ciascun metodo. Spazio infine anche alla tematica del finanziamento di corsi blended con i <strong>fondi interprofessionali</strong>.",
+        "immagine": "base-08.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 9,
+        "titolo": "Autoapprendimento",
+        "sottotitolo": "Le nostre persone sono abituate a seguire solo corsi in aula, hanno difficoltà a cambiare, come gestire questo cambiamento?<br/>Esistono diversi stili di autoapprendimento? E' possibile gestire percorsi differenziati per ogni stile?<br/>Come iniziare?",
+        "testo": "Alla scoperta dell’autoapprendimento. Si parte dalla <strong>motivazione</strong>: come far scattare e come mantenere sempre alta la motivazione ad apprendere negli adulti. Punto di partenza: le differenze oggettive che ogni individuo presenta e le conseguenti diverse abilità e <strong>stili di apprendimento</strong>. Punto di arrivo: l’individuazione dei <strong>percorsi adeguati</strong> e l’utilizzo di <strong>linguaggi specifici</strong> per ogni stile. Nel posterLab anche la Teoria delle Intelligenze Multiple di Gardner come valido supporto per un approccio <strong>personalizzato</strong> nella creazione di corsi di formazione. Panoramica finale sui tool di aggiornamento professionale disponibili online e su tutto quanto la rete offre per favorire l’apprendimento continuo.",
+        "immagine": "base-09.jpg",
+        "focus": "Metodologie"
+    },
+    {
+        "id": 10,
+        "titolo": "Comunicare e coinvolgere i partecipanti in percorsi eLearning",
+        "sottotitolo": "Come ingaggiare i partecipanti? Come motivarli alla fruizione dei corsi proposti e delle attività?<br/>Come creare e alimentare community? Che assistenza serve?<br/> Per molte persone abbiamo un problema di cultura digitale, cosa fare? Posso progettare una pagina intranet dedicata alla formazione?",
+        "testo": "Un posterLab per apprendere come <strong>motivare alla partecipazione</strong> ai corsi eLearning, coinvolgendo sul piano emotivo e razionale, attraverso campagne di comunicazione interna. L’attenzione si focalizzerà su due temi: come evidenziare la necessità e l’utilità, anche per la persona, della formazione nel contesto aziendale e quale ventaglio di strumenti utilizzare: video spot sui messaggi chiave da veicolare, eventi su misura, materiale stampato (poster, brochure, cartoline…), percorsi multimediali nella intranet, con contenuti in linea con i messaggi, pubblicazione di story/photo/videotelling autoprodotti, che ruotano intorno ad un programma predefinito con votazione e segnalazione ai colleghi dei contenuti pubblicati. Infine, linee guida sul perfezionamento di un <strong>piano di comunicazione integrato</strong>, capace di coinvolgere i partecipanti a corsi eLearning.",
+        "immagine": "base-10.jpg",
+        "focus": "Metodologie"
+    }
+]

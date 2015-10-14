@@ -1,0 +1,31 @@
+<ion-view hide-back-button="true" view-title="{{partecipaIcon}} Partecipa">
+<ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+      <button ng-click="showPopup()" class="button button-icon button-clear out">Logout</button>
+      </ion-nav-buttons>
+
+    <ion-content class="bg-chat">
+
+      <div ng-repeat="message in messages" class="messages">
+
+        <div class="message" ng-class="{blu: message.colore == 2}">
+          <span>{{message.testo}}<br/><strong>{{nickname}}</strong></span>
+          <img class="photo" ng-src="img/avatar.jpg" src="img/avatar.jpg">
+        </div>
+
+      </div>
+
+    </ion-content>
+
+    <ion-footer-bar keyboard-attach class="chat">
+      
+      <button class="button button-clear invia" ng-click="sendMessage()">Invia</button>
+
+      <input type="text" placeholder="Scrivi qua il tuo messaggio" on-return="sendMessage(); closeKeyboard()" ng-model="data.message" on-focus="inputUp()" on-blur="inputDown()" /> 
+          
+    </ion-footer-bar>
+
+</ion-view>
