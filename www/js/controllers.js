@@ -1,7 +1,7 @@
 angular.module('starter.controllers', ['starter.services'])
 
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, $ionicHistory, $ionicScrollDelegate, $location) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -324,7 +324,7 @@ angular.module('starter.controllers', ['starter.services'])
   
     //$scope.unos = Uno.query();
 
-
+function refreashload(){
         $ionicLoading.show({
           template: '<ion-spinner icon="ios"></ion-spinner>',
           hideOnStageChange: true
@@ -368,11 +368,13 @@ angular.module('starter.controllers', ['starter.services'])
   
             
     });
+}
+
+
+refreashload();
 
       $scope.doRefresh = function() {
-    
-        $scope.unos = Uno.query();
-        //console.log('fatto');
+        refreashload();
         $scope.$broadcast('scroll.refreshComplete');//stop spinner
       }
 
@@ -383,7 +385,7 @@ angular.module('starter.controllers', ['starter.services'])
 })
 
 .controller('DueCtrl', function($scope, $ionicHistory, $sce, $ionicLoading, $ionicPopup, $state, Due) {
-  
+  function refreashload(){
     $ionicLoading.show({
           template: '<ion-spinner icon="ios"></ion-spinner>',
           hideOnStageChange: true
@@ -427,10 +429,13 @@ angular.module('starter.controllers', ['starter.services'])
   
             
     });
+}
 
+
+refreashload();
       $scope.doRefresh = function() {
-    
-        $scope.dues = Due.query();
+        refreashload();
+        
         //console.log('fatto');
         $scope.$broadcast('scroll.refreshComplete');//stop spinner
       }
@@ -442,7 +447,7 @@ angular.module('starter.controllers', ['starter.services'])
 })
 
 .controller('TreCtrl', function($scope, $ionicHistory, $sce, $ionicLoading, $ionicPopup, $state, Tre) {
-  
+   function refreashload(){
     $ionicLoading.show({
           template: '<ion-spinner icon="ios"></ion-spinner>',
           hideOnStageChange: true
@@ -486,10 +491,14 @@ angular.module('starter.controllers', ['starter.services'])
   
             
     });
+}
 
+
+refreashload();
       $scope.doRefresh = function() {
     
-        $scope.tres = Tre.query();
+        refreashload();
+
         //console.log('fatto');
         $scope.$broadcast('scroll.refreshComplete');//stop spinner
       }
