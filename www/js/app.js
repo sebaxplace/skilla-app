@@ -234,7 +234,48 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.classifiche', {
+      url: '/classifiche',
+      cache: false,
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/classifiche.html'
+        }
+      }
+    })
 
+  .state('app.classifiche.uno', {
+    url: '/uno',
+    cache: false,
+    views: {
+      'uno': {
+        templateUrl: 'templates/uno.html',
+        controller: 'UnoCtrl'
+      }
+    }
+  })
+
+  .state('app.classifiche.due', {
+    url: '/due',
+    cache: false,
+    views: {
+      'due': {
+        templateUrl: 'templates/due.html',
+        controller: 'DueCtrl'
+      }
+    }
+  })
+
+  .state('app.classifiche.tre', {
+    url: '/tre',
+    cache: false,
+    views: {
+      'tre': {
+        templateUrl: 'templates/tre.html',
+        controller: 'TreCtrl'
+      }
+    }
+  })
  
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');

@@ -1,0 +1,27 @@
+<ion-view hide-back-button="true" view-title="{{classificheIcon}} I migliori interventi">
+<ion-content class="list-posterlab">
+<ion-refresher on-refresh="doRefresh()"></ion-refresher>
+
+<div class="item-body sessioni" style="text-align:center;" ng-if="$root.showExtraButton">
+	
+	<h2>Nessun intervento disponibile</h2>
+	    
+</div>
+
+<ion-item ng-repeat="uno in unos" class="list-pos" ng-if="$root.showList">
+
+<div class="item sessioni">
+
+	<div class="item-body cont-titolo classifica">
+		<span>{{uno.data}}</span> 
+		<h2>{{uno.titolo}}</h2>
+		<p ng-bind-html="to_trusted(uno.testo)"></p>
+		<h4>{{uno.nickname}}</h4>
+	</div>
+	
+</div>
+
+</ion-item>
+
+</ion-content>
+</ion-view>

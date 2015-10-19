@@ -67,6 +67,36 @@ angular.module('starter.services', ['ngResource'])
 
 })
 
+.factory('Uno', function ($resource) {
+    
+    return $resource('http://posterlab.skilla.com/interattivo/index/categoriauno',{ }, {
+
+        get: {method:'GET', isArray: true}
+
+      });
+
+})
+
+.factory('Due', function ($resource) {
+    
+    return $resource('http://posterlab.skilla.com/interattivo/index/categoriadue',{ }, {
+
+        get: {method:'GET', isArray: true}
+
+      });
+
+})
+
+.factory('Tre', function ($resource) {
+    
+    return $resource('http://posterlab.skilla.com/interattivo/index/categoriatre',{ }, {
+
+        get: {method:'GET', isArray: true}
+
+      });
+
+})
+
 .factory('Base', function ($resource) {
     
     return $resource('data/posterlab_base.json',{ }, {

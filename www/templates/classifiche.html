@@ -1,0 +1,16 @@
+<ion-view hide-back-button="false" view-title="{{classificheIcon}} I migliori interventi">
+    <ion-tabs class="tabs-top tabs-color-light">
+    
+        <ion-tab title="{{unoTitle}}" class="base" ui-sref="app.classifiche.uno">
+            <ion-nav-view name="uno" cache-view="false"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="{{dueTitle}}" class="intermedio" ui-sref="app.classifiche.due">
+            <ion-nav-view name="due" cache-view="false"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="{{treTitle}}" class="avanzato" ui-sref="app.classifiche.tre">
+            <ion-nav-view name="tre" cache-view="false"></ion-nav-view>
+        </ion-tab>
+        
+    </ion-tabs>
+</ion-view>
+

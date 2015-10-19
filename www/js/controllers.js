@@ -15,9 +15,13 @@ angular.module('starter.controllers', ['starter.services'])
   $scope.relatoriIcon = '<i class="ion-ios-list-outline normal"></i>';
   $scope.comitatoIcon = '<i class="ion-ios-people-outline normal"></i>';
   $scope.posterlabIcon = '<i class="ion-ios-calendar-outline normal"></i>';
+  $scope.classificheIcon = '<i class="ion-ios-star-outline normal"></i>';
   $scope.baseTitle = 'percorso<br/>base';
   $scope.intermedioTitle = 'percorso<br/>intermedio';
   $scope.avanzatoTitle = 'percorso<br/>avanzato';
+  $scope.unoTitle = '1';
+  $scope.dueTitle = '2';
+  $scope.treTitle = '3';
   $scope.sessioniIcon = '<i class="ion-ios-folder-outline normal"></i>';
   $scope.infoIcon = '<i class="ion-ios-information-outline normal"></i>';
   
@@ -43,7 +47,13 @@ angular.module('starter.controllers', ['starter.services'])
   };*/
 
   // Perform the login action when the user submits the login form
-  
+  $scope.scrollMe = function(anchor) {
+    $location.hash(anchor);
+    var handle = $ionicScrollDelegate.$getByHandle('content');
+    console.log(anchor);
+    
+    handle.anchorScroll();
+  };
 })
 
 
@@ -309,6 +319,186 @@ angular.module('starter.controllers', ['starter.services'])
 
 })
 
+
+.controller('UnoCtrl', function($scope, $ionicHistory, $sce, $ionicLoading, $ionicPopup, $state, Uno) {
+  
+    //$scope.unos = Uno.query();
+
+
+        $ionicLoading.show({
+          template: '<ion-spinner icon="ios"></ion-spinner>',
+          hideOnStageChange: true
+        });
+  
+        $scope.unos = Uno.query();
+        $scope.unos.$promise.then(function(data) {
+          
+          var checklist = data[0].data;
+        
+        $ionicLoading.hide();
+        
+        if (checklist == 'error') {
+
+            $scope.$root.showExtraButton = true;
+            $scope.$root.showList = false;
+
+        }else{
+
+            $scope.$root.showExtraButton = false;
+            $scope.$root.showList = true;
+        }
+        // Do whatever when the request is finished
+        }, 
+          function(response) { // optional
+            
+            //fallisce duro
+            $ionicLoading.hide();
+            var alertPopup = $ionicPopup.confirm({
+            title: 'Connessione assente',
+            template: 'Assicurati di avere una connessione internet',
+            buttons: [{
+                  text: 'OK',
+                  type: 'button-magenta',
+            onTap: function(e) {
+            // Returning a value will cause the promise to resolve with the given value.
+            $state.go("app.home");
+            }
+        }]
+    });
+  
+            
+    });
+
+      $scope.doRefresh = function() {
+    
+        $scope.unos = Uno.query();
+        //console.log('fatto');
+        $scope.$broadcast('scroll.refreshComplete');//stop spinner
+      }
+
+      $scope.to_trusted = function(html_code) {
+        return $sce.trustAsHtml(html_code);
+      }
+
+})
+
+.controller('DueCtrl', function($scope, $ionicHistory, $sce, $ionicLoading, $ionicPopup, $state, Due) {
+  
+    $ionicLoading.show({
+          template: '<ion-spinner icon="ios"></ion-spinner>',
+          hideOnStageChange: true
+        });
+  
+        $scope.dues = Due.query();
+        $scope.dues.$promise.then(function(data) {
+          
+          var checklist = data[0].data;
+        
+        $ionicLoading.hide();
+        
+        if (checklist == 'error') {
+
+            $scope.$root.showExtraButton = true;
+            $scope.$root.showList = false;
+
+        }else{
+
+            $scope.$root.showExtraButton = false;
+            $scope.$root.showList = true;
+        }
+        // Do whatever when the request is finished
+        }, 
+          function(response) { // optional
+            
+            //fallisce duro
+            $ionicLoading.hide();
+            var alertPopup = $ionicPopup.confirm({
+            title: 'Connessione assente',
+            template: 'Assicurati di avere una connessione internet',
+            buttons: [{
+                  text: 'OK',
+                  type: 'button-magenta',
+            onTap: function(e) {
+            // Returning a value will cause the promise to resolve with the given value.
+            $state.go("app.home");
+            }
+        }]
+    });
+  
+            
+    });
+
+      $scope.doRefresh = function() {
+    
+        $scope.dues = Due.query();
+        //console.log('fatto');
+        $scope.$broadcast('scroll.refreshComplete');//stop spinner
+      }
+
+      $scope.to_trusted = function(html_code) {
+        return $sce.trustAsHtml(html_code);
+      }
+
+})
+
+.controller('TreCtrl', function($scope, $ionicHistory, $sce, $ionicLoading, $ionicPopup, $state, Tre) {
+  
+    $ionicLoading.show({
+          template: '<ion-spinner icon="ios"></ion-spinner>',
+          hideOnStageChange: true
+        });
+  
+        $scope.tres = Tre.query();
+        $scope.tres.$promise.then(function(data) {
+          
+          var checklist = data[0].data;
+        
+        $ionicLoading.hide();
+        
+        if (checklist == 'error') {
+
+            $scope.$root.showExtraButton = true;
+            $scope.$root.showList = false;
+
+        }else{
+
+            $scope.$root.showExtraButton = false;
+            $scope.$root.showList = true;
+        }
+        // Do whatever when the request is finished
+        }, 
+          function(response) { // optional
+            
+            //fallisce duro
+            $ionicLoading.hide();
+            var alertPopup = $ionicPopup.confirm({
+            title: 'Connessione assente',
+            template: 'Assicurati di avere una connessione internet',
+            buttons: [{
+                  text: 'OK',
+                  type: 'button-magenta',
+            onTap: function(e) {
+            // Returning a value will cause the promise to resolve with the given value.
+            $state.go("app.home");
+            }
+        }]
+    });
+  
+            
+    });
+
+      $scope.doRefresh = function() {
+    
+        $scope.tres = Tre.query();
+        //console.log('fatto');
+        $scope.$broadcast('scroll.refreshComplete');//stop spinner
+      }
+
+      $scope.to_trusted = function(html_code) {
+        return $sce.trustAsHtml(html_code);
+      }
+
+})
 
 .controller('SalesCtrl', function($scope, Sale) {
   

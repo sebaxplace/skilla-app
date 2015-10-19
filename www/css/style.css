@@ -205,6 +205,12 @@ label .info {display:inline;}
 .centro {height: 16px;}
 .middle {width: 150px!important;}
 
+/* classifiche */
+.classifica {max-width: none;}  
+.classifica h2{margin-bottom: 15px!important;}
+.classifica span{float: right;margin-top: 10px;}
+.classifica h4{font-family: 'museo_sans300';}
+
 /* chat */
 .bg-chat {background-image:url('../img/back_chat.jpg');background-repeat:no-repeat;width: 100%; background-size: cover;bottom:55px;}
 .bg-chat2 {background-image:url('../img/back_chat.jpg');background-repeat:no-repeat;width: 100%; background-size: cover;}
