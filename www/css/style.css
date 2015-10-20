@@ -194,7 +194,7 @@ label .info {display:inline;}
 
 .info-dett {text-align: center;}
 .info-dett h2 {font-size:16px;text-transform:uppercase;font-family: 'museo_sans500';margin-top: 35px;}
-.info-dett img {width: 80%;}
+.info-dett img {width: 95%;}
 
 /* bottom menu */
 .bottom {position: absolute; bottom: 0px; width: 250px;height:100px;padding-left: 25px;text-align: center;background-color: #d01e7f;}     

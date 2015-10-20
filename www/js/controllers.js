@@ -19,9 +19,9 @@ angular.module('starter.controllers', ['starter.services'])
   $scope.baseTitle = 'percorso<br/>base';
   $scope.intermedioTitle = 'percorso<br/>intermedio';
   $scope.avanzatoTitle = 'percorso<br/>avanzato';
-  $scope.unoTitle = '1';
-  $scope.dueTitle = '2';
-  $scope.treTitle = '3';
+  $scope.unoTitle = 'Creativi';
+  $scope.dueTitle = 'Interessanti';
+  $scope.treTitle = 'Utili';
   $scope.sessioniIcon = '<i class="ion-ios-folder-outline normal"></i>';
   $scope.infoIcon = '<i class="ion-ios-information-outline normal"></i>';
   
