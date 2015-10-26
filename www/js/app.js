@@ -104,6 +104,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
   .state('app.posterlab', {
       url: '/posterlab',
+      cache: false,
       views: {
         'menuContent': {
           templateUrl: 'templates/posterlab.html',

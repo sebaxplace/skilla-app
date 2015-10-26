@@ -670,7 +670,7 @@ refreashload();
   var dati2 = $localStorage.get('messaggi');
 
   $scope.sendMessage = function() {
-    
+     
     var empty = $scope.data.message;
 
     if (empty !== undefined) {
@@ -682,7 +682,59 @@ refreashload();
       'session': session,
       'testo': $scope.data.message
     }
+    var testos = $scope.data.message;
 
+    // controllo duplicato
+    
+
+          var msg = $localStorage.getObject('messaggi');
+              
+          var length = msg.length;
+          //console.log(length);
+          var check = 0;
+
+          for(i=0; i < length; i++){
+            var malloppo = msg[i].testo;
+            // se duplicato
+            if (malloppo == testos){var check = 1;}
+          }
+
+          if (check>=1){
+
+              var alertPopup2 = $ionicPopup.confirm({
+                      title: 'Attenzione',
+                      template: 'Stai reinviando lo stesso messaggio.<br/>Sei sicuro?',
+                        buttons: [{ 
+                        text: 'Annulla',
+                        type: 'button-default',
+                        onTap: function(e) {
+                        
+                        //annullo
+                        delete $scope.data.message;
+                      
+                      }
+                    }, {
+                    text: 'OK',
+                    type: 'button-magenta',
+                    onTap: function(e) {
+
+                    //salvo
+
+                          salva();
+                      
+
+                          }
+                      }]
+                    });
+
+
+            }else{ salva();}
+  
+
+
+
+  function salva(){
+  //post ajax
     $http({
         url: 'http://posterlab.skilla.com/posterlabs/index/guardar',
         method: "POST",
@@ -691,7 +743,7 @@ refreashload();
         headers: {'Content-Type': 'application/x-www-form-urlencoded'}
     })
     .then(function(response) {
-            // success
+            // success duro
 
             var risposta = response.data.data;
             var messaggio = response.data.messaggio;
@@ -699,76 +751,78 @@ refreashload();
 
             if (risposta == 'error') {
 
-              	var alertPopup = $ionicPopup.alert({
-  					title: 'Sessione scaduta',
-  					template: 'La sessione del PosterLab è scaduta.',
-      				buttons: [{
-						text: 'OK',
-						type: 'button-magenta',
-						onTap: function(e) {
-      						// Returning a value will cause the promise to resolve with the given value.
-      						window.localStorage.removeItem('login');
-        					window.localStorage.removeItem('messaggi');
-        					window.localStorage.removeItem('sessione_attuale');
+                var alertPopup = $ionicPopup.alert({
+            title: 'Sessione scaduta',
+            template: 'La sessione del PosterLab è scaduta.',
+              buttons: [{
+            text: 'OK',
+            type: 'button-magenta',
+            onTap: function(e) {
+                  // Returning a value will cause the promise to resolve with the given value.
+                  window.localStorage.removeItem('login');
+                  window.localStorage.removeItem('messaggi');
+                  window.localStorage.removeItem('sessione_attuale');
 
-      						$timeout(function() {
-      							$state.go("app.partecipa");
-      						}, 200);
+                  $timeout(function() {
+                    $state.go("app.partecipa");
+                  }, 200);
 
-  						}
-					}]
-				});
+              }
+          }]
+        });
 
 
             }
 
             if (risposta == 'success') {
 
-              $scope.messages.push({
-                  nome: dati.username,
-                  session: session,
-                  testo: messaggio,
-                  colore: colore
-            });
-            delete $scope.data.message;
+
+                  $scope.messages.push({
+                      nome: dati.username,
+                      session: session,
+                      testo: messaggio,
+                      colore: colore
+                  });
+                  delete $scope.data.message;
 
 
-            var post = $scope.messages;
-            var a; 
-            if (dati2 == undefined) {
-                $localStorage.setObject('messaggi', post);
-                a = [];
-  
-            } else {
+                  var post = $scope.messages;
+                  var a; 
+                  if (dati2 == undefined) {
+
+                    //localstorage vuoto
+                      $localStorage.setObject('messaggi', post);
+                      a = [];
         
-              a = $localStorage.getObject('messaggi');
-              a.push(post);
-              $localStorage.setObject('messaggi', a);
+                  } else {
+                  //aggiunge item al oggetto
+                    a = $localStorage.get('messaggi');
+                    window.localStorage.setItem('messaggi', JSON.stringify(post));
+                  };
 
-            };
-
-
-            }
-       
+                }
+                
+              
+                 
             
     }, 
     function(response) { 
             //fallisce duro
             var alertPopup = $ionicPopup.confirm({
-  			title: 'Connessione assente',
-  			template: 'Assicurati di avere una connessione internet',
-      			buttons: [{
-					text: 'OK',
-					type: 'button-magenta',
-					onTap: function(e) {
-      				// Returning a value will cause the promise to resolve with the given value.
-      					$state.go("app.home");
- 					}
-		}]
-	});
-
+        title: 'Connessione assente',
+        template: 'Assicurati di avere una connessione internet',
+            buttons: [{
+          text: 'OK',
+          type: 'button-magenta',
+          onTap: function(e) {
+              // Returning a value will cause the promise to resolve with the given value.
+                $state.go("app.home");
+          }
+      }]
     });
 
+    }); // fine fillisce post ajax
+} //fine salva
 
 
     }
@@ -778,32 +832,32 @@ refreashload();
 
 
   $scope.showPopup = function() {
-  	var alertPopup = $ionicPopup.confirm({
-  		title: 'Logout',
-  		template: 'Stai abbandonando la sessione.<br/>Sei sicuro?',
+    var alertPopup = $ionicPopup.confirm({
+      title: 'Logout',
+      template: 'Stai abbandonando la sessione.<br/>Sei sicuro?',
       buttons: [{ // Array[Object] (optional). Buttons to place in the popup footer.
-      	text: 'Annulla',
-      	type: 'button-default',
-      	onTap: function(e) {
+        text: 'Annulla',
+        type: 'button-default',
+        onTap: function(e) {
       // e.preventDefault() will stop the popup from closing when tapped.
       
-  		}
-		}, {
-		text: 'OK',
-		type: 'button-magenta',
-		onTap: function(e) {
-      		// Returning a value will cause the promise to resolve with the given value.
-      	window.localStorage.removeItem('login');
+      }
+    }, {
+    text: 'OK',
+    type: 'button-magenta',
+    onTap: function(e) {
+          // Returning a value will cause the promise to resolve with the given value.
+        window.localStorage.removeItem('login');
         window.localStorage.removeItem('messaggi');
         window.localStorage.removeItem('sessione_attuale');
 
-      		$timeout(function() {
-      			$state.go("app.partecipa");
-      		}, 200);
+          $timeout(function() {
+            $state.go("app.partecipa");
+          }, 200);
 
-  			}
-		}]
-	});
+        }
+    }]
+  });
 
 
   };
@@ -835,21 +889,4 @@ refreashload();
 });
 
 
-/*
-    $http({
-        url: 'http://posterlab.skilla.com/posterlabs/index/guardar',
-        method: "POST",
-        data: ,
-        type: 'html',
-        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-    })
-    .then(function(response) {
-            // success
-                
-    }, 
-    function(response) { // optional
-            //fallisce duro
-       
-    });
 
-*/
